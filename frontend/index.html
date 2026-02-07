@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gawanya - Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>👋 Welcome to Gawanya</h1>
+        <p>Split bills. Settle debts. Easy.</p>
+        
+        <div class="auth-form">
+            <h2>Login</h2>
+            <input type="email" id="email" placeholder="Email" required>
+            <input type="password" id="password" placeholder="Password" required>
+            <button onclick="login()">Login</button>
+        </div>
+
+        <div class="auth-form">
+            <h2>Register</h2>
+            <input type="text" id="name" placeholder="Full Name" required>
+            <input type="email" id="reg-email" placeholder="Email" required>
+            <input type="password" id="reg-password" placeholder="Password" required>
+            <input type="tel" id="phone" placeholder="Phone (2547...)" required>
+            <button onclick="register()">Register</button>
+        </div>
+    </div>
+
+    <script src="js/auth.js"></script>
+</body>
+</html>
